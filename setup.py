@@ -6,9 +6,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 username = "DhyeySherasia"
 project_name = "oneNeuron_pypi"
 
+# Update the version every time we make a new commit
 setuptools.setup(
     name=f"{project_name}-{username}",
-    version="0.0.1",
+    version="0.0.2",
     author=username,
     author_email="dhyeysherasia2002@gmail.com",
     description="An implementation of Perceptron in Python",
